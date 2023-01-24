@@ -1,0 +1,37 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 15px;
+}
+header{
+    border-bottom: 2px solid #808080;
+    margin-top: 30px;
+}
+header h1 {
+    display: inline;
+    margin-right: 40px;
+
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+
+}
+
+header nav ul li a {
+    color:rgb(21, 175, 21);
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+main h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
