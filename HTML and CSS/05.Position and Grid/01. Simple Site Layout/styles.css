@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    grid-template-columns: 100px auto ;
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+body *{
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+
+header{
+    grid-area: header;
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+aside{
+    grid-area: aside;
+}
+
+aside ul{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+aside ul li a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+main{
+    grid-area: main;
+}
+main ul  {
+    margin-top: 0px;
+    margin-left: 50px;
+    list-style: disc;
+    padding: 0px;
+ }
+main ul li {
+   padding: 0px;
+}
+
+main ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+
+footer{
+    grid-area: footer;
+}
