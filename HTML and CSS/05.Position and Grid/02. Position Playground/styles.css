@@ -1,0 +1,56 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+div
+{
+ height: 50vh;
+ position: relative;
+}
+
+img{
+  width: 300px;
+}
+
+div:first-child{
+    background: linear-gradient(90deg, #1D82B5,#1FD7EC,#1FECCA) ;
+}
+
+div:last-child{
+    background: linear-gradient(90deg, #EC1F7E,#DB4F1D,#DB951D) ;
+}
+
+
+i{
+    font-size: 15px;
+    color: white;
+    
+}
+
+section.card{
+    padding: 10px;
+    display: block;  
+    text-shadow: 1px 1px 20px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+
+}
+
+/*
+.one section.card{
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.two section.card{
+    position: absolute;
+    left: 50%;
+    top: 500px;
+    transform: translate(-50%,-50);
+} */
+
+a{
+    position: relative;
+    bottom: 12px;
+    right: 30px;
+}
