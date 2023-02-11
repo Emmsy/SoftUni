@@ -1,0 +1,45 @@
+html{
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 15vw;
+    height: 35rem;
+
+}
+
+span{
+    border: 1px solid black;
+    text-align: center;
+    margin: 2px;
+    padding: 5px 16px;
+}
+
+span:nth-child(11){
+    order: -1;
+}
+
+span:nth-child(12){
+    order: 1;
+}
+
+span:nth-child(4),:nth-child(8),:nth-child(9){
+    order: 2;
+}
+
+span:nth-child(6){
+    order: 3;
+}
+
+span:nth-child(5){
+    order: 4;
+}
+
+
+span.HTML{
+    order: 5;
+}
