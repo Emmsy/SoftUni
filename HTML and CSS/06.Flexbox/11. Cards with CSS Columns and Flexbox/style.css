@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+section.main{
+    width: 80vw;
+    height: 100vh;
+
+}
+
+div.masondry{
+   width: 700px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex-shrink: 0;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 20px;
+}
+
+/* .masondry */.card{ 
+  width: 300px;
+  background-color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  overflow: hidden;
+}
+
+.card p{
+    padding: 0px 20px 20px 20px;
+}
+
+.card img{
+    width: 300px;
+}
+.card h3{
+    padding: 20px 20px 0 20px;
+    font-weight: 300;
+}
+
+.card footer{
+    padding-top: 20px;
+    border-top: 1px solid gray;
+
+}
+
+div.flex{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+
+.flex .card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex .card section{
+    flex-grow: 1;
+}
+
+
+.flex .card footer
+{ 
+    align-items: flex-start;
+}
