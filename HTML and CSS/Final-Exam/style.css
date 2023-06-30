@@ -1,0 +1,204 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #efefef;
+}
+
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 800px;
+    overflow: hidden;
+    
+}
+
+.hero__img{
+   width: 100%;
+  z-index: -1;
+   position: absolute;
+   top:-200px
+}
+
+.margin{
+    margin: 0 300px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.hero h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header,
+header nav,
+header nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    margin-top: 30px;
+}
+
+header nav {
+   margin-right: 20px;
+}
+header nav ul a{
+    margin-right: 50px;
+    color: black;
+}
+
+.hero article{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.hero article h1{
+    font-weight:900;
+    font-size: 3.5rem;
+}
+
+.hero article h3{
+    font-weight:400;
+    font-size: 1.8rem;
+   margin-bottom: 40px;
+}
+
+.hero article p{
+    margin-bottom: 40px;
+}
+
+.hero__btn{
+    background-color: rgb(78, 35, 35);
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+section.content{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content__title{
+    text-align: center;
+}
+
+.content__title h2{
+    font-size: 2.2rem;
+    font-weight:900;
+}
+
+.content__title h5{
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight:400;
+    color: gray;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content__cards_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.card___desc{
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 00px;
+    background-color: #efefef;
+    text-align: center;
+
+}
+
+.card img{
+    height: 300px;
+    width: 400px;
+
+}
+
+.card___desc h3{
+ margin: 20px;
+ text-align: center;
+
+}
+
+.card___desc p{
+    text-align: left;
+    margin: 20px 20px;
+   }
+
+.card__btn{
+    border-radius: 30px;
+    border: 1px solid black;
+    font-weight: 600;
+    padding: 6px 30px;
+    cursor: pointer;
+}
+
+footer .margin{
+    background-color: black;
+    color: white;
+    margin: 0px;
+
+}
+
+footer .margin{
+    display: flex;
+    padding:  50px 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web-map{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.web-map ul li a{
+   color: white;
+   text-decoration: none;
+   font-weight: 100;
+   line-height: 5px;
+}
+
+.web-map ul li {
+    font-weight: 100;
+    line-height: 50px;
+ }
+
+ .social ul{
+    display: flex;
+    gap:30px;
+ }
+
+ .social ul a {
+  color: white;
+ }
+
+
+
